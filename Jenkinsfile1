@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('Git Checkout'){
             steps{
-                branch: "main", url: "https://github.com/shashi6012/JavaProject.git"
+               url: "https://github.com/shashi6012/JavaProject.git"
             }
         }
         stage('Compile'){
